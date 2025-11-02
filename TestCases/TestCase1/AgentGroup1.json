@@ -1,0 +1,173 @@
+{
+  "CoordinateSystem": "NWU_FLU",
+  "IsGCSAgent": false,
+  "AgentType": "Quadcopter-S",
+  "FlashConfig": {
+    "IsFlashOn": true,
+    "FlashColor": "Red",
+    "IsBlinky": true
+  },
+  "CameraConfigs": [],
+  "SensorDatas": [
+    {
+      "HorizontalChannels": 360,
+      "VerticalChannels": 59,
+      "VerticalFOVLow": -7.0,
+      "VerticalFOVHigh": 52.0,
+      "MaxDistance": 70.0,
+      "HorizontalScanStep": 0.1,
+      "LidarResolution": 1.0,
+      "NearBlindZone": 0.1,
+      "MountingPosition": "up",
+      "SensorType": "LiDAR MID-360",
+      "SensorId": 1,
+      "Description": "",
+      "PublishFrequency": 10,
+      "TopicNames": [
+        "lidar01"
+      ]
+    }
+  ],
+  "Agents": [
+    {
+      "AgentId": 1,
+      "IpAddress": "0.0.0.0",
+      "Waypoints": [
+        {
+          "X": 27.0,
+          "Y": -20.0,
+          "Z": 2.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 3.92699081699
+        }
+      ]
+    },
+    {
+      "AgentId": 2,
+      "IpAddress": "0.0.0.1",
+      "Waypoints": [
+        {
+          "X": 28.0,
+          "Y": -19.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 3,
+      "IpAddress": "0.0.0.2",
+      "Waypoints": [
+        {
+          "X": 28.0,
+          "Y": -20.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 4,
+      "IpAddress": "0.0.0.3",
+      "Waypoints": [
+        {
+          "X": 28.0,
+          "Y": -21.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 5,
+      "IpAddress": "0.0.0.4",
+      "Waypoints": [
+        {
+          "X": 29.0,
+          "Y": -19.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 6,
+      "IpAddress": "0.0.0.5",
+      "Waypoints": [
+        {
+          "X": 29.0,
+          "Y": -20.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 7,
+      "IpAddress": "0.0.0.6",
+      "Waypoints": [
+        {
+          "X": 29.0,
+          "Y": -21.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 8,
+      "IpAddress": "0.0.0.7",
+      "Waypoints": [
+        {
+          "X": 30.0,
+          "Y": -19.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 9,
+      "IpAddress": "0.0.0.8",
+      "Waypoints": [
+        {
+          "X": 30.0,
+          "Y": -20.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    },
+    {
+      "AgentId": 10,
+      "IpAddress": "0.0.0.9",
+      "Waypoints": [
+        {
+          "X": 30.0,
+          "Y": -21.0,
+          "Z": 1.5,
+          "RX": 0.0,
+          "RY": 0.0,
+          "RZ": 0.0
+        }
+      ]
+    }
+  ]
+}
